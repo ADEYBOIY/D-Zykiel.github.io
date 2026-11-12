@@ -1,0 +1,308 @@
+body {
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top-bars {
+    color: white;
+    display: flex;
+    padding-left: 20px;
+}
+.myName {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 40px;
+} 
+.myName pr {
+    width: 250px;
+    height: 3px;
+    letter-spacing: 2px;
+    font-size: 11px;
+    display: block;
+}
+.myName img {
+    font-size: 80px;
+}
+.top-bars a{
+    margin-left: 10px;
+    color: rgb(6, 241, 221);
+    width: 1px;
+    height: 3px;
+    font-size: 19px;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 40px;
+    
+}
+.top-bars a:hover {
+    color: gold
+}
+nav .active {
+    color: gold
+    
+}
+.talk {
+    
+    color: white;
+    display: flex;
+}
+.talk a {
+    border: 4px solid blue;
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-top: 25px;
+    display: flex;
+    padding-right: 5px;
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 31px;
+    width: 110px;
+    font-size: 18.1px;
+    color: white;
+}
+.myweb {
+    color: white;
+}
+.myweb ho{
+    margin-top: 30px;
+    padding-left: 120px;
+    font-size: 25px;
+    display: block;
+    height: 10px;
+    letter-spacing: 3px;
+}
+.myweb h {
+    margin-top: 5px;
+    padding-left: 620px;
+    font-size: 25px;
+    display: block;
+    height: 10px;
+    letter-spacing: 3px;
+}
+.myweb ps {
+    padding-left: 60px;
+    font-size: 90px;
+    display: flex;
+    height: 90px;
+}
+.myweb nam {
+    :linear-gradient(red,blue);
+}
+.myweb span0 {
+    padding-left: 60px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    display: block;
+}
+.myweb span {
+    color: aqua;
+    font-size: 16px;
+    display: block;
+    padding-left: 55px;
+}
+.mywork {
+    display: flex;
+}
+.mywork st {
+    display: flex;
+    padding-bottom: 15px;
+    padding-left: 65px;
+    height: 13px;
+}
+.word spen {
+    font-size: 17px;
+    margin: 10px;
+}
+.word pc {
+    letter-spacing: 1px;
+    font-size: 11.5px;
+    color: aqua;
+    padding-left: 140px;
+    display: block;
+}
+.mywork c{
+    letter-spacing: 1px;
+    font-size: 11.5px;
+    color: aqua;
+    padding-left: 140px;
+}
+.mywork1 {
+    display: flex;
+}
+.mywork1 pen{
+    display: flex;
+    margin-left: 50px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.pen1 {
+    display: block;
+}
+.pen1 spen {
+    padding-top: 5px;
+    font-size: 19px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.pen1 pn {
+    letter-spacing: 0.5px;
+    font-size: 11.5px;
+    color: aqua;
+    padding-left: 112px;
+    display: block;
+}
+.pen1 n{
+    letter-spacing: 0.5px;
+    font-size: 11.5px;
+    color: aqua;
+    padding-left: 110px;
+    margin-top: 2px;
+    display: block;
+}
+.img {
+    justify-content: center;
+}
+footer {
+    border-top: 1px  #008cff;
+    border-bottom: 1px solid #008cff;
+    box-shadow: 
+        0 0 5px #008cff,
+        0 0 15px #008cff,
+        0 0 40px rgba(0, 140, 255, 0.7);
+        height: 270px;
+        margin-top: 100px;
+        display: flex;
+        padding-left: 50px;
+}
+section {
+    display: block;
+} 
+.footer-content {
+    margin: 20px;
+    display: flex;
+}
+.footer-content h1 {
+    margin-top: 0.1px;
+    margin-left: 10px;
+    color: white;
+    font-size: 40px;
+    
+}
+.footer-content span {
+    color: blue;
+    
+}
+.footer-content p {
+    color: white;
+    margin-top: 40px;
+    position: absolute;
+    left: 80px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.CONTENT {
+    margin-left: 40px;
+    width: 500px;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+.icons {
+    margin-left: 3px;
+}
+.links {
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: large;
+}
+.links h2 {
+    display: inline;
+    font-size: 23px;
+    color: beige;
+    
+}
+.links span {
+    color: rgb(6, 6, 197);
+}
+.links a {
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgb(236, 236, 236);
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.links a:hover {
+    color: gold;
+    transform: scale(1.6);
+}
+.link span {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    display: flex;
+    color: rgb(2, 2, 248);
+}
+.getme {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top:30px;
+    margin-left: 140px;
+    
+}
+.getme span {
+    color: blue;
+}
+.getmeContent {
+     margin-top: 10px;
+    display: flex;
+    height: 60px;
+}
+.getmeContent h3 {
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.getmeContent span{
+     font-size: 15px;
+    display: block;
+    color: rgb(90, 89, 89);
+    font-weight: bold;
+}
+.getmeContent1 {
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+}
+.getmeContent1 h3 {
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.getmeContent1 span{
+     font-size: 15px;
+    display: block;
+    color: rgb(90, 89, 89);
+    font-weight: bold;
+    
+}
+.getmeContent2 {
+    height: 60px;
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+}
+.getmeContent2 h3 {
+   margin-top: 3px;
+   margin-left: 10px;
+   font-size: 18px;
+}
+.getmeContent2 span{
+    font-size: 15px;
+    display: block;
+    color: rgb(90, 89, 89);
+    font-weight: bold;   
+}
